@@ -16,5 +16,3 @@ function increment2(value) {
     guest.textContent = count2;
     console.log(count2);
 }
-
-incrementBtn.addEventListener('click', increment);
