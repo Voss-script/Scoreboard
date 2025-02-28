@@ -9,7 +9,7 @@ let count2 = 0;
 function increment(value) {
     count += value;
     home.textContent = count;
-    console.log
+    console.log(count)
 }
 
 function increment2(value) {
