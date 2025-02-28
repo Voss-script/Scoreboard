@@ -1,7 +1,6 @@
 const home = document.getElementById('homescore');
-const guest = document.getElementById('guestscore');
+const guest = document.getElementById('guestscore'); 
 const incrementBtn = document.getElementById('increment');
-const decrementBtn = document.getElementById('decrement');
 
 let count = 0;
 let count2 = 0;
