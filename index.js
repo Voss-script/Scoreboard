@@ -1,22 +1,22 @@
- let home = document.getElementById("homescore")
- let guest = document.getElementById("guestscore")
+ const home = document.getElementById('homescore');
+ const guest = document.getElementById('guestscore');
 
- let count = 0
- let count2 = 0
+ let count = 0;
+ let count2 = 0;
  
 
  function increment(value){
    
-   count += value
-   home.textContent = count
-   console.log(count)
+   count += value;
+   home.textContent = count;
+   console.log(count);
  }
 
  
-  function increment(value){
-     count2 += value
-     guest.textContent = count2
-     console.log(count2)
+  function increment2(value){
+     count2 += value;
+     guest.textContent = count2;
+     console.log(count2);
   }
  
  
